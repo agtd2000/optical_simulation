@@ -1,0 +1,2 @@
+[permissions]
+allow = ["explore", "Bash(python3 -c \"import numpy; print('numpy:', numpy.__version__)\" 2>&1 && python3 -c \"import matplotlib; print('matplotlib:', matplotlib.__version__)\" 2>&1 && python3 -c \"from mpl_toolkits.mplot3d import Axes3D; print('mplot3d: ok')\" 2>&1)", "Bash(pip3 install matplotlib 2>&1 | tail -5)"]

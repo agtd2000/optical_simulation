@@ -1,0 +1,14 @@
+{
+  "config": {
+    "plane_z_mm": 500.0,
+    "plane_range_mm": 1500.0,
+    "sampling": "301\u00d7301"
+  },
+  "results": {
+    "peak_irradiance_lux": 2395.658461193358,
+    "mean_irradiance_lux": 256.8041143465391,
+    "half_max_irradiance_lux": 1197.829230596679,
+    "spot_diameter_mm_FWHM": 746.3390346737015,
+    "total_flux_on_plane_lm": 2326.670956391079
+  }
+}

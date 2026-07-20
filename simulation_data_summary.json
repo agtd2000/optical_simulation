@@ -1,0 +1,20 @@
+{
+  "config": {
+    "ies_file": "LTE-C1726-ZH-GL.ies",
+    "n_sources": 6,
+    "source_circle_radius_mm": 10.0,
+    "sphere_radius_mm": 500.0,
+    "source_orientation": "+Z (IES vertical 0\u00b0 = +Z)",
+    "sampling": "181\u00d7361 (theta\u00d7phi)"
+  },
+  "results": {
+    "max_irradiance_lux": 2397.141192705533,
+    "min_irradiance_lux": 0.0,
+    "mean_irradiance_lux": 977.3739127998849,
+    "total_flux_on_sphere_lm": 2742.9891880121145,
+    "peak_total_intensity_cd": 599.2527047773423,
+    "half_max_angle_deg_FWHM": 80.0253500341942,
+    "single_lamp_peak_intensity_cd": 100.0,
+    "n_lamp_peak_intensity_cd": 600.0
+  }
+}

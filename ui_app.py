@@ -784,7 +784,7 @@ def build_ui():
                         sphere_r = gr.Number(value=500, label="球面半径 (mm)", minimum=10, maximum=10000, step=10)
                         with gr.Row():
                             n_th = gr.Number(value=181, label="极角采样数", minimum=10, maximum=721, step=1)
-                            n_ph = gr.Number(value=360, label="方位角采样数", minimum=10, maximum=720, step=1)
+                            n_ph = gr.Number(value=361, label="方位角采样数", minimum=10, maximum=720, step=1)
                     with gr.Column(visible=False) as plane_group:
                         plane_z = gr.Number(value=500, label="平面 Z 距离 (mm)", minimum=1, maximum=10000, step=10)
                         plane_range = gr.Number(value=1500, label="XY 采样范围 ± (mm)", minimum=10, maximum=10000, step=10)
